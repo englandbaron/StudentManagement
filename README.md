@@ -45,3 +45,4 @@ tang@zhang StudentManagement % kubectl create -f crd.yaml
 #### 案例
 
 请参考example.go文件
+环境变量配置请参考.vscode目录
