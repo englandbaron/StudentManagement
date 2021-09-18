@@ -24,7 +24,7 @@ type StudentStatus struct {
 	Eating   bool `json:"eating"`
 	Learning bool `json:"learning"`
 	Playing  bool `json:"playing"`
-	Sleeping bool `json:"playing"`
+	Sleeping bool `json:"sleeping"`
 }
 
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
