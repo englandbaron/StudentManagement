@@ -1,0 +1,12 @@
+apiVersion: esdevops.com/v1
+kind: Student
+metadata:
+  # CR本身的Name字段，没有实际意义
+  name: 6076e124-5866-4c1d-af47-21bf022e95a6
+spec:
+  name: 小明
+status:
+  learning: false
+  playing: false
+  eating: true
+  sleeping: false

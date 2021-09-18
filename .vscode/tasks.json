@@ -1,0 +1,17 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "dir",
+            "type": "shell",
+            "command": "KUBERNETES_SERVICE_HOST=kubernetes.docker.internal KUBERNETES_SERVICE_PORT=6443 go run example.go",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
