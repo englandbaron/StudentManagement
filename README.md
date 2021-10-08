@@ -42,6 +42,10 @@ tang@tangdeMacBook-Pro ～/ % cd ${HOME}/go/src/StudentManagement
 tang@zhang StudentManagement % kubectl create -f crd.yaml
 ```
 
+#### 快速安装
+
+参考Dockerfile文件
+
 #### 案例
 
 请参考example.go文件
